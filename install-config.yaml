@@ -1,7 +1,7 @@
 apiVersion: v1
-baseDomain: cloud.peaksecurity.de
+baseDomain: peaksecurity.de
 metadata:
-  name: peaksecurity
+  name: cloud
 
 compute:
 - hyperthreading: Enabled
