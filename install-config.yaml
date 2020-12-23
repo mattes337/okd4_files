@@ -1,7 +1,7 @@
 apiVersion: v1
-baseDomain: okd.local
+baseDomain: cloud.peaksecurity.de
 metadata:
-  name: lab
+  name: peaksecurity
 
 compute:
 - hyperthreading: Enabled
@@ -27,4 +27,4 @@ platform:
 fips: false
 
 pullSecret: '{"auths":{"fake":{"auth": "bar"}}}' 
-sshKey: 'ssh-ed25519 AAAA...'   
+sshKey: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDJI1FeWnnkWrBnzhqUUJ8yoMfldaBmPmqj2e94R2paCBCpfxMXVg8J/xqc7qXbSQtdBZvtKmhxE2eNGXpYOKo/2ye71zW+eo29DkOouMJcnhsi20nDmlapWcwm+U9x6vZwIXFhMTVlfMNW2ERVW1GW632Pyfc3HeYmlb3Fl1cCJyLKgrseWpg0scxz1I8xBXzCGtjmc8qkVvlVQPIZh7LcD3Ht4FyfHkh/3hhmV4NSMFJGhOuIseUEgEeB3XY3VgeMjn57W9P1BvlSVjQYrR/kjDdJ5ma8t/+wWzqmL4GM6p//Qbomxsw2QuP1wA12/EZ3C+arib7U65yQWHTlM7XzrG3FJcUmLwORJaRQSqB61PO9pGh5gdmt3Qc55/A/rBv/orTRi1UnF22LS2q7HIrmQeG4tAjY9qZsekRBPRjMlKrDc0W51SggTUV2vJRzVCKW1yR96QZB4VUUX2dlRs7EbQ+amIrnDDloscXTw4nHal6jaCdtAr+i9twC22Omy2k= root@cloud-services'   
