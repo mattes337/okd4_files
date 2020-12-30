@@ -8,6 +8,7 @@ spec:
   accessModes:
     - ReadWriteMany
   persistentVolumeReclaimPolicy: Retain
+  storageClassName: slow
   nfs:
     path: /var/nfsshare/storage
     server: 10.231.2.2
